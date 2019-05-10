@@ -29,3 +29,5 @@ func bar() {
 // (1) sequence
 // (2) loop: iterative
 // (3) conditional
+
+// Runs Top to Bottom
