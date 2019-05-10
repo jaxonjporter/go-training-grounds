@@ -15,10 +15,15 @@ func main() {
 			foo()
 		}
 	}
+	bar()
 }
 
 func foo() {
 	fmt.Println("Im in foo\n")
+}
+
+func bar() {
+	fmt.Println("Exiting...")
 }
 // control flow:
 // (1) sequence
