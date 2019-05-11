@@ -11,7 +11,8 @@ func main() {
 
 	for i := 1; i <= 100; i++ {
 		if i%2 == 0 {
-			fmt.Println(i)
+			n, _ := fmt.Println(i)
+			fmt.Println(n)
 			foo()
 		}
 	}
@@ -31,3 +32,6 @@ func bar() {
 // (3) conditional
 
 // Runs Top to Bottom
+
+// undeline means ignore to compiler
+//  Never have a variable you dont use
